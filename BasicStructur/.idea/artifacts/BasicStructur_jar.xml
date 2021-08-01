@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BasicStructur:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BasicStructur_jar</output-path>
+    <root id="archive" name="BasicStructur.jar">
+      <element id="module-output" name="BasicStructur" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-lang3-3.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
