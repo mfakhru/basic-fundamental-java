@@ -1,0 +1,29 @@
+Access Modifier
+1/ Private
+   Membatasi akses hanya di dalam kelas
+2/ Default
+   Ketika penulisan kodenya tanpa atribut modifier
+   hanya dapat diakses dalam satu package
+3/ Protected
+   Bisa diakses selama satu package, perbedaan dengan
+   default adalah protected bisa diakses dari luar
+   package, caranya dengan kelas turunannya
+4/ Public
+   Global, diakses dari manapun bahkan package berbeda
+
+Non Access Modifier
+1/ Static
+   Mendeklarasikan variabel atau metode yg berdiri sendiri
+   tanpa perlu instance dari suatu kelas. Ada dua macam:
+   static variable dan static methods
+2/ Final
+   Fnial variable -> inisiasi sekali, for konstanta
+   Final methods
+   Final class -> tidak bisa dijadikan induk class
+3/ Transient
+   Proses serializing, konversi object to byte agar
+   dapat di transmisikan
+4/ Synchronize
+   Untuk membatasi akses ke suatu variable/methods
+   hanya satu thread, jika ada dua maka prosesnya akan
+   serial (bergantian).
