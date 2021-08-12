@@ -1,0 +1,5 @@
+Generics
+Menyederhanakan penulisan kode dari type-casting
+juga untuk compile-time type safety.
+Dikenal dengan "type-parameter"
+Paling umum penggunaan -> collection

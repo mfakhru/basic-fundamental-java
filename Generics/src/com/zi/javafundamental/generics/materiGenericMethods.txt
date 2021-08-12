@@ -1,0 +1,15 @@
+    static void arrayToCollection(Object[] a, Collection<?> c) {
+       for (Object o : a) {
+           c.add(o); // baris ini tidak valid
+       }
+    }
+
+tidak valid karena Collection<?> c adalah
+collection of unknown type dan
+kita menambahkan tipe Object o.
+
+    static <T> void arrayToCollection(T[] a, Collection<T> c) {
+       for (T o : a) {
+           c.add(o); // baris ini valid
+       }
+    }
